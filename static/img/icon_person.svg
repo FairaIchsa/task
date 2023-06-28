@@ -1,0 +1,11 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon_person" clip-path="url(#clip0_1816_143)">
+<ellipse id="Ellipse 24" cx="16.0683" cy="8.5158" rx="8.52431" ry="8.34783" stroke="#E5E9EE" stroke-width="2" stroke-miterlimit="10"/>
+<path id="Ellipse 25" d="M31.7998 32.1676C31.7998 23.7153 24.8029 16.8633 16.1719 16.8633C7.5408 16.8633 0.543945 23.7153 0.543945 32.1676" stroke="#E5E9EE" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0_1816_143">
+<rect width="32" height="32" fill="white" transform="translate(0.543945 0.167969)"/>
+</clipPath>
+</defs>
+</svg>
