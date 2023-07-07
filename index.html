@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/owl.carousel.min.css">
     <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="static/css/media_rules.css">
   </head>
   <body>
-    <div class="p_container px-0 position-relative">
-      <header class="p_container p_header row py-4 g-0 justify-content-between align-items-center">
+    <!-- TODO: Разбиение на секции: section -> row -> grid -> container -> col -->
+    <!-- TODO: Респонсивная верстка - media rule (tg) -->
+    <!-- TODO: Добавить меню для мобильных устройств -->
+    <div class="container-xxl px-0 position-relative">
+      <header class="container-xxl p_header row py-4 g-0 justify-content-between align-items-center">
         <div class="col-auto d-lg-none">
           <img src="static/img/burger.svg" alt="">
         </div>
@@ -39,7 +43,7 @@
 
     <div id="mainCarousel" class="carousel slide p_blue" data-bs-ride="carousel">
       <div class="indicators_container">
-        <div class="p_container">
+        <div class="container-xxl">
           <!-- TODO: На десктопной и мобильной версии у индикаторов отличаются отступы снизу. Это не ошибка? -->
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -51,7 +55,7 @@
 
       <div class="carousel-inner">
         <div class="carousel-item active" style="background-image: url('static/img/_MG_0784 1.png')">
-          <div class="p_container">
+          <div class="container-xxl">
             <div class="content">
               <h1 class="pb-1">Итальянский бутик твоего образа жизни</h1>
               <p class="fs-3 pt-3 pb-40">Первый шоурум в формате эксклюзивного клуба для мужчин.</p>
@@ -60,7 +64,7 @@
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('static/img/_MG_0784 1.png')">
-          <div class="p_container">
+          <div class="container-xxl">
             <div class="content">
               <h1 class="pb-1">Итальянский бутик твоего образа жизни</h1>
               <p class="fs-3 pt-3 pb-40">Первый шоурум в формате эксклюзивного клуба для мужчин.</p>
@@ -69,7 +73,7 @@
           </div>
         </div>
         <div class="carousel-item" style="background-image: url('static/img/_MG_0784 1.png')">
-          <div class="p_container">
+          <div class="container-xxl">
             <div class="content">
               <h1 class="pb-1">Итальянский бутик твоего образа жизни</h1>
               <p class="fs-3 pt-3 pb-40">Первый шоурум в формате эксклюзивного клуба для мужчин.</p>
@@ -80,9 +84,9 @@
       </div>
     </div>
 
-    <div class="p_container_fluid p_content_block p_blue">
+    <div class="containter-fluid p_content_block p_blue">
 
-      <div class="p_container">
+      <div class="container-xxl">
         <div class="row mx-0 justify-content-between align-items-center">
           <div class="col-auto px-0">
             <h2>Новая коллекция</h2>
@@ -94,7 +98,7 @@
         </div>
       </div>
 
-      <div class="p_container_fluid pt-40 pb-40">
+      <div class="containter-fluid pt-40 pb-40">
         <!-- TODO: Как увеличить высоту объекта в карусели? (Нужно ли сделать две карусели?) -->
         <div id="collectionCarousel" class="owl-carousel">
           <div class="item p_white">
@@ -130,7 +134,7 @@
         </div>
       </div>
 
-      <div class="p_container pt-40">
+      <div class="container-xxl pt-40">
         <div class="row mx-0 pb-40 justify-content-between align-items-center">
           <div class="col-auto px-0">
             <h2>Каталог</h2>
@@ -141,7 +145,7 @@
           </div>
         </div>
 
-        <!-- TODO: Можно ли как-то сделать это, не рисуя два разных варианта? Доолжны ли карточки растяшиваться? -->
+        <!-- TODO: Можно ли как-то сделать это, не рисуя два разных варианта? -->
         <div id="bigCatalog" class="catalog d-none d-xxl-flex">
           <div class="item">
             <img src="static/img/category_xxl_1.png" alt="">
@@ -207,8 +211,8 @@
 
     </div>
 
-    <div class="p_container_fluid p_content_block p_white">
-      <div class="p_container">
+    <div class="containter-fluid p_content_block p_white">
+      <div class="container-xxl">
         <!-- TODO: Как не давать вылезать каротинке за края экрана? -->
         <div class="position-relative d-none d-xl-block">
           <img id="tag_img" src="static/img/tag.png" alt="">
@@ -249,8 +253,8 @@
       </div>
     </div>
 
-    <div class="p_container_fluid p_content_block p_blue">
-      <div class="p_container">
+    <div class="containter-fluid p_content_block p_blue">
+      <div class="container-xxl">
         <h2 class="pb-40">Наш шоурум</h2>
         <div class="row pt-40 g-4">
           <div class="col-12 col-xxl-6">
@@ -286,8 +290,8 @@
       </div>
     </div>
 
-    <div class="p_container_fluid p_blue">
-      <footer class="p_container pt-40">
+    <div class="containter-fluid p_blue">
+      <footer class="container-xxl pt-40">
         <div class="row justify-content-between">
           <div class="col-auto pb-40">
             <img class="pb-2" src="static/img/logo_bottom.svg" alt="">

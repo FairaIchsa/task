@@ -42,21 +42,18 @@ p{
   line-height: 130%;
 }
 
-.p_container{
+.container-xxl{
   max-width: 1406px;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
-.p_container_fluid{
+.container-fluid{
   width: 100%;
   padding-left: 0;
   padding-right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .p_blue{
